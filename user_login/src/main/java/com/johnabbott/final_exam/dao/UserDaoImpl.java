@@ -60,7 +60,7 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	@Override
-	public UserEntity getUserByName(String userName) {
+	public UserEntity getUserByEmail(String userEmail) {
 		return null;
 	}
 

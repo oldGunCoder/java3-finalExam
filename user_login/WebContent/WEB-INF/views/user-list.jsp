@@ -7,10 +7,7 @@
 <html lang="en">
 
 <body>
-	<div>
-		<a href="addstudent">Add a new user</a>
-	</div>
-
+		
 	<div align="center">
 		User List
 		<table border="1">
@@ -32,6 +29,14 @@
 
 		</table>
 	</div>
-
+	
+	<br/>
+	
+	<div align="center">
+		<a href="addUser">Add a new user</a>
+	</div>
+	
+	
+	
 </body>
 </html>

@@ -11,7 +11,7 @@ public interface UserDao {
 	
 	public UserEntity getUserById(int userId); // Read
 	
-	public UserEntity getUserByName(String studentName); //Read
+	public UserEntity getUserByEmail(String userEmail); //Read
 	
 	public boolean deleteUser(int userId); //DELETE
 	

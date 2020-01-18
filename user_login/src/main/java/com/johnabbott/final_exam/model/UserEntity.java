@@ -33,6 +33,15 @@ public class UserEntity {
 		this.password = password;
 	}
 
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public String getEmail() {
 		return email;
 	}
@@ -45,19 +54,9 @@ public class UserEntity {
 		return password;
 	}
 
-	public void setLastName(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
-
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 		
 	
 }

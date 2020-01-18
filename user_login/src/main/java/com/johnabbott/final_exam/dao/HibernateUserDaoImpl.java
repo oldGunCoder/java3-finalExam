@@ -27,7 +27,7 @@ public class HibernateUserDaoImpl implements UserDao {
 	@Override
 	public List<UserEntity> getUsers() {
 		//User is not the table name => it is the class name(@Entity)
-		return getSession().createQuery("from StudentEntity", UserEntity.class).list();
+		return getSession().createQuery("from UserEntity", UserEntity.class).list();
 	}
 
 	@Override
@@ -72,9 +72,9 @@ public class HibernateUserDaoImpl implements UserDao {
 		return 0;
 	}
 
-	@Override
-	public UserEntity getUserByName(String userName) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+//	@Override
+//	public UserEntity getUserByEmail(String userEmail) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 }

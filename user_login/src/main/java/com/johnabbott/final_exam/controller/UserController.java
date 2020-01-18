@@ -57,7 +57,7 @@ public class UserController {
 	}
 	
 	@RequestMapping(value = "saveUser", method = RequestMethod.POST)
-	public String saveStudent(@ModelAttribute("student") UserEntity user) {
+	public String saveUser(@ModelAttribute("user") UserEntity user) {
 		if (service.addUser(user))
 			return "redirect:/users/getusers";
 		else {
